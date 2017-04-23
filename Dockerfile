@@ -38,3 +38,5 @@ RUN echo "export PATH=/root/bin:/opt/vscode/VSCode-linux-x64/bin:$PATH" >> ~/.ba
     && mkdir /var/run/sshd
 
 WORKDIR /root
+
+ENTRYPOINT ["/usr/sbin/sshd","-D"]
