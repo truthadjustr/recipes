@@ -10,6 +10,7 @@ RUN apt-get update && apt-get install -y --no-install-recommends\
     vim\
     hexedit\
     tmux\
+    unzip\
     xmlstarlet\
     jq\
     cf-cli\
