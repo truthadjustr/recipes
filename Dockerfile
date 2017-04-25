@@ -15,6 +15,7 @@ RUN apt-get update && apt-get install -y --no-install-recommends\
     jq\
     cf-cli\
     openssh-server\
+    net-tools\
     xauth\
     libgtk2.0-0\
     libxss1\
