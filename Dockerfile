@@ -11,6 +11,7 @@ RUN apt-get update && apt-get install -y --no-install-recommends\
     hexedit\
     tmux\
     unzip\
+    less\
     xmlstarlet\
     jq\
     cf-cli\
