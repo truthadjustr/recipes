@@ -26,6 +26,7 @@ RUN apt-get update && apt-get install -y --no-install-recommends\
     libxtst6\ 
     && npm install -g @angular/cli@latest\
     && npm install -g gulp\
+    && npm install -g typescript\
     && mkdir /root/bin /root/src /opt/vscode /opt/vscode-datadir && cd /root/src\
     && git clone https://github.com/syscools/commandline.git\
     && cd commandline\
